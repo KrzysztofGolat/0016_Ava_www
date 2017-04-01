@@ -171,9 +171,11 @@ input[type=checkbox] {
     visibility: hidden;
 }
 
+
 /**
  * Checkbox Five
  */
+
 .checkboxFive {
     width: 25px;
     height: 25px;
@@ -182,9 +184,11 @@ input[type=checkbox] {
     float: left;
 }
 
+
 /**
  * Create the box for the checkbox
  */
+
 .checkboxFive label {
     cursor: pointer;
     position: absolute;
@@ -197,17 +201,19 @@ input[type=checkbox] {
     border-radius: 4px;
 }
 
+
 /**
  * Display the tick inside the checkbox
  */
+
 .checkboxFive label:after {
-    opacity: 0.2;
+    opacity: 0.15;
     content: '';
     position: absolute;
     width: 9px;
     height: 6px;
     background: transparent;
-    top: 7px;
+    top: 8px;
     left: 7px;
     border: 3px solid #ffffff;
     border-top: none;
@@ -215,18 +221,22 @@ input[type=checkbox] {
     transform: rotate(-45deg);
 }
 
+
 /**
  * Create the hover event of the tick
  */
+
 .checkboxFive label:hover::after {
-    opacity: 0.9;
+    opacity: 1;
 }
+
 
 /**
  * Create the checkbox state for the tick
  */
-.checkboxFive input[type=checkbox]:checked + label:after {
-	opacity: 1;
+
+.checkboxFive input[type=checkbox]:checked+label:after {
+    opacity: 1;
 }
 
 .accept {
