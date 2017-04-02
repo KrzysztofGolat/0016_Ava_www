@@ -13,26 +13,6 @@
 
     <link type="text/css" rel="stylesheet" href="style/main.css">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!--    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>-->
-
-    <!--
-    <link rel="apple-touch-icon" href="img/touch-icon-iphone.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/touch-icon-iphone76x76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
-    -->
-
-    <!--
-    <meta name="application-name" content="Graphic & Designer">
-    <meta name="msapplication-TileColor" content="#83382b">
-    <meta name="msapplication-square70x70logo" content="img/winico_70x70.jpg">
-    <meta name="msapplication-square150x150logo" content="img/winico_150x150.jpg">
-    <meta name="msapplication-wide310x150logo" content="img/winico_310x150.jpg">
-    <meta name="msapplication-square310x310logo" content="img/winico_310x310.jpg">    
-    -->
-
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
 
@@ -95,8 +75,8 @@
 
                         <h5 class="text-center">
                             Scandinavian Financial Research (SFR) -asiakastutkimuksissa LähiTapiola Varainhoito on saanut useita palkintoja:
-                            <br> • Suomen paras varainhoitaja vastuullisessa sijoittamisessa vuonna 2013, 2014 ja 2015
-                            <br> • 2014 Gold Award, 2012 Platinum Award ja 2011 Silver Award Katso <a href="" alt="kaikki">kaikki</a>
+                            <br> &bull; Suomen paras varainhoitaja vastuullisessa sijoittamisessa vuonna 2013, 2014 ja 2015
+                            <br> &bull; 2014 Gold Award, 2012 Platinum Award ja 2011 Silver Award Katso <a href="" alt="kaikki">kaikki</a>
                         </h5>
 
                         <h6 class="text-center"><a href="" alt="kaikki">Arvonnan säännöt</a></h6>
@@ -155,7 +135,7 @@
 
                         <form method="post" action="/">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <p>
                                         <label for="kirjoita">Kirjoita viesti</label>
                                         <textarea type="text"></textarea>
@@ -170,7 +150,7 @@
                                     </p>
                                 </div>
 
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <p>
                                         <label for="sahkopostiosoite">Sähköpostiosoite</label>
                                         <input type="text" name="sahkopostiosoite" id="sahkopostiosoite">
@@ -184,24 +164,22 @@
                                         <input type="text" name="postinumero" id="postinumero">
                                     </p>
                                     <p>
-                                        <label>
-<!--                                            <input type="checkbox">-->
+
+                                      
+                                        <span class="accept">
+                                            <input type="checkbox" value="1" id="acceptInput" name="" />
+                                            <label for="acceptInput">
+                                                Minulle voi lähettää sähköpostia tarjouksista ja muista LähiTapiolan tuotteista.</label>
                                             
-                                            <section>
-                                                <!-- Checbox Five -->
-                                                <div class="checkboxFive">
-                                                    <input type="checkbox" value="1" id="checkboxFiveInput" name="" />
-                                                    <label for="checkboxFiveInput"></label>
-                                                </div>
-                                            </section>
-                                            
-                                            <p class="accept">Minulle voi lähettää sähköpostia tarjouksista ja muista LähiTapiolan tuotteista.</p>
-                                        </label>
+                                        </span>
+
+
                                     </p>
                                 </div>
                             </div>
 
                             <input type="submit" value="Lähetä" class="btn btn-primary">
+
                         </form>
                     </div>
                 </div>
