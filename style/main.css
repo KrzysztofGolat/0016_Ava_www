@@ -30,7 +30,7 @@
         font-size: 20px;
         font-weight: 700;
     }
-
+    
     @media screen and (max-width: 767px) {
         .header h3 {
             margin: 410px 0 0 0;
@@ -135,15 +135,12 @@
         padding: 20px 0 !important;
         font-size: 15px !important;
         font-weight: 700 !important;
-        /*    background-color: #00a1d4 !important;*/
         border-width: 0 !important;
         color: white !important;
-        /*    margin-bottom: 100px !important;*/
         display: block !important;
         width: 280px;
         margin-left: auto;
         margin-right: auto;
-        /*    margin-top: 50px;*/
     }
     
     .form {
@@ -161,8 +158,8 @@
     
     .form textarea {
         min-height: 135px;
-        resize:vertical;
-        display: block; 
+        resize: vertical;
+        display: block;
     }
     
     .form textarea,
@@ -176,17 +173,11 @@
         padding: 12px 10px;
     }
     
-    .form input {
-/*        min-height: 50px;*/
-        
-    }
-    
     .form p {
         font-size: 16px;
     }
     
     input[type=checkbox] {
-        /*        visibility: hidden;*/
         display: none;
     }
     
@@ -195,19 +186,12 @@
     }
     
     .accept {
-        /*
-        width: 25px;
-        height: 25px;
-        margin-top: 26px;
-*/
         position: relative;
         display: block;
         margin-top: 36px;
-        /*        float: left;*/
     }
     
     .accept label {
-        /*        padding: 22px 20px 40px 32px;*/
         padding-left: 40px;
         font-size: 12px !important;
         padding-right: 4%;
